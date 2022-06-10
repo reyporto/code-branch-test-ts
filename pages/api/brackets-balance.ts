@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import doBracketsBalance from '../../controllers/brachets-balance'
+import doBracketsBalance from '../../controllers/brackets-balance'
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse<any>) {
     const { method, body } = req

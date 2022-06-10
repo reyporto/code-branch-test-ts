@@ -65,7 +65,7 @@ const Home: NextPage = () => {
 
         <p className={styles.description}>
           To get started write{' '}
-          <code className={styles.code}>the code</code>
+          <code className={styles.code}>code</code>
         </p>
 
         {success && (
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
 
         <div className={styles.grid}>
           <form onSubmit={handleSubmit}>
-            <textarea className={styles.textarea} value={code} onChange={handleChange} id="code" name="code" />
+            <textarea className={styles.textarea} value={code} onChange={handleChange} id='code' name='code' placeholder='Code' />
             <br />
             <button type="submit">Submit</button>
           </form>
