@@ -9,3 +9,11 @@ yarn dev
 ```
 
 Dev env: http://localhost:3000
+
+Jest Coverage:
+
+```bash
+npm run coverage
+# or
+yarn coverage
+```
